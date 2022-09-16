@@ -1,0 +1,27 @@
+ul {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  margin: 20px auto;
+  display: flex;
+  padding: 5px;
+  font-size: inherit;
+  font-family: inherit;
+  border-radius: 5px;
+  border: solid 1px $text;
+
+  &:focus {
+    outline: solid 2px $blue-hover;
+  }
+}
